@@ -13,11 +13,13 @@
     --yellow:#fca311 ;
     --black:#141414;
     --white:#fff;
+    --tile:#fff;
 }
 .darkTheme{
     --yellow:#14213D;
     --white:#121212;
     --black:#E5E5E5;
+    --tile:#292929;
 }
 body{
     min-height: 100vh;
@@ -184,6 +186,7 @@ body{
     display: flex;
     justify-content: space-between;
     color: var(--black);
+    background: var(--tile);
 }
 .tileBox .tile .setting{
     position: relative;
