@@ -15,12 +15,25 @@
     color: var(--black);
     background: var(--tile);
 }
-.tileBox .tile .date{
+.tileBox .tile .description{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.tileBox .tile .description .date{
     position: relative;
     font-size: 1em;
-    width:100%;
+    width:80%;
     text-align:center;
     margin-top:5px;
+}
+.tileBox .tile .description .download{
+    position: relative;
+    font-size: 1em;
+    width:20%;
+    text-align:center;
+    margin-top:5px;
+    display: block;
 }
 .tileBox .tile img{
     width:100%;

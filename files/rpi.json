@@ -1,0 +1,7 @@
+{"RPI":
+    {
+        "tasks": "tasks",
+        "cpu":"cpuUsage",
+        "memory":"memoryUsage"
+    }
+}
