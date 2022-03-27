@@ -71,20 +71,6 @@
     }
 }
 @media (max-width:1041px){
-    .nav{
-        left: -330px;
-    }
-    .main{
-        width:100%;
-        left: 0;
-    }
-    .main.active{
-        left: 330px;
-    }
-    .nav.active{
-        left: 0;
-        width: 330px;
-    }
     .tileBox{
         grid-template-columns: repeat(2,1fr);
     }

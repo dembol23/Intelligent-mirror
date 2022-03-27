@@ -82,22 +82,6 @@
         grid-template-columns: repeat(2,1fr);
     }
 }
-@media (max-width:1041px){
-    .nav{
-        left: -330px;
-    }
-    .main{
-        width:100%;
-        left: 0;
-    }
-    .main.active{
-        left: 330px;
-    }
-    .nav.active{
-        left: 0;
-        width: 330px;
-    }
-}
 @media (max-width:710px){
     .tileBox{
         grid-template-columns: repeat(1,1fr);
