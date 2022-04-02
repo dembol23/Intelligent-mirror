@@ -88,24 +88,66 @@
                     <img src="../icons/frozone.jpg" alt="User photo">
                  </div>
             </div>
-            <div class="tile">
-                <ul>
-                    <li><a href="">Email configuration <ion-icon name="mail-outline"></ion-icon></a></li>
-                    <li><a href="">Change password <ion-icon name="key-outline"></ion-icon></a></li>
-                    <li><a href="">Change profile picture <ion-icon name="camera-outline"></ion-icon></a></li>
-                    <li><a href="">Delete account <ion-icon name="trash-bin-outline"></ion-icon></a></li>
-                </ul>
-            </div>
-            <div class="tile">
-                <div>
-                    <div class="tileName">Upload images</div>
-                    <br>
-                    <div class="description">
-                        <form action="/imagesUpload">
-                        <label for="file">Select files:</label>
-                        <input type="file" id="file" name="file" multiple><br><br>
-                        <input type="submit" class="submit" value="Submit">
-                        </form>
+            <div class="tileBox2">
+                <div class="tile">
+                    <ul>
+                        <li><a href="">Email configuration <ion-icon name="mail-outline"></ion-icon></a></li>
+                        <li><a href="">Change password <ion-icon name="key-outline"></ion-icon></a></li>
+                        <li><a href="">Change profile picture <ion-icon name="camera-outline"></ion-icon></a></li>
+                        <li><a href="">Delete account <ion-icon name="trash-bin-outline"></ion-icon></a></li>
+                    </ul>
+                </div>
+                <div class="tile">
+                    <div>
+                        <div class="tileName">Upload images</div>
+                        <br>
+                        <div class="description">
+                            <form action="/imagesUpload">
+                                <label for="file">Select files:</label>
+                                <input type="file" id="file" name="file" multiple><br><br>
+                                <input type="submit" class="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile" title="spotify">
+                    <div>
+                        <div class="tileName"><video src="../icons/spotifyLogo.mp4" autoplay width="80px"></video>Spotify login </div>
+                        <div class="form">
+                            <form action="">
+                                <div class="text-field">
+                                    <input type="text" required>
+                                    <span></span>
+                                    <label>Email</label>
+                                </div>
+                                <div class="text-field">
+                                    <input type="text" required>
+                                    <span></span>
+                                    <label>Password</label>
+                                </div>
+                                <input type="submit" title="spotifySubmit" value="Add event">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile" title="instagram">
+                    <div>
+                        <div class="tileName"><video src="../icons/instagramLogo.mp4" autoplay width="80px"></video>Spotify login </div>
+                        <div class="form">
+                            <form action="">
+                                <div class="text-field">
+                                    <input type="text" required>
+                                    <span></span>
+                                    <label>Email</label>
+                                </div>
+                                <div class="text-field">
+                                    <input type="text" required>
+                                    <span></span>
+                                    <label>Password</label>
+                                </div>
+                                <input type="submit" title="instagramSubmit" value="Add event">
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
